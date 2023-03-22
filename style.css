@@ -56,6 +56,7 @@ li {
   left: 16px;
   top: 8px;
   margin-top: 81px;
+
 }
 
 .about h1 {
@@ -125,9 +126,12 @@ ul {
   left: 24px;
 }
 
+.MyRecentworks {
+  display: grid;
+}
+
 .headline2 {
   min-height: calc(100vh - 90px);
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -241,6 +245,7 @@ ul {
   font-weight: 500;
   line-height: 20px;
   text-align: center;
+  padding-right: 12px;
 }
 
 .Ruby {
@@ -270,6 +275,7 @@ ul {
   line-height: 24px;
   font-size: 20px;
   word-spacing: 0.5rem;
+  margin-top: 8px;
   margin-bottom: 8px;
   font-style: 'Inter', serif;
   height: 87px;
@@ -288,16 +294,22 @@ ul {
   font-family: 'Inter', sans-serif;
   height: 40px;
   font-size: 15px;
-  padding: 8px;
+  padding: 12px;
   background-color: rgba(131, 130, 130, 0.5);
   color: #fff;
-  margin-left: 8px;
   border: none;
   list-style-type: none;
+  margin-top: 12px;
+  margin-right: 12px;
 }
 
 .btn-languages {
   margin-top: 12px;
+  margin-right: 12px;
+}
+
+.btn-languages:hover {
+  background-color: #9e6aa1;
 }
 
 .btn-allProjects button {
@@ -311,6 +323,12 @@ ul {
   font-weight: 700;
   font-size: 17px;
   margin-top: 52px;
+}
+
+.btn-allProjects:hover {
+  outline-color: transparent;
+  outline-style:solid;
+  transition: 0.7s;
 }
 
 .right-block {
@@ -355,7 +373,7 @@ ul {
   background-image: url('images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-size: 7rem;
-  background-position: right 300px;
+  background-position: right 390px;
 }
 
 .aboutme h2 {
@@ -467,6 +485,26 @@ ul {
 
 .work {
   margin: 32px;
+}
+
+.resume {
+  background-color: #ff6b00;
+  width: 156px;
+  height: 48px;
+  top: 395px;
+  padding: 12px;
+  font-family: "Poppins", serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  border: #ff6b00;
+  font-weight: 700;
+}
+
+.resume:hover {
+  background-color:#002ead;
+  transition: 0.3s;
 }
 
 @media (min-width: 600px) {
