@@ -56,7 +56,6 @@ li {
   left: 16px;
   top: 8px;
   margin-top: 81px;
-
 }
 
 .about h1 {
@@ -325,9 +324,13 @@ ul {
   margin-top: 52px;
 }
 
+.btn-allProjects {
+  margin-top: 22px;
+}
+
 .btn-allProjects:hover {
   outline-color: transparent;
-  outline-style:solid;
+  outline-style: solid;
   transition: 0.7s;
 }
 
@@ -336,10 +339,6 @@ ul {
   top: 76px;
   padding: 8px 16px 8px 16px;
   margin-top: 80px;
-}
-
-.btn-allProjects {
-  margin-top: 22px;
 }
 
 .getresume {
@@ -503,7 +502,7 @@ ul {
 }
 
 .resume:hover {
-  background-color:#002ead;
+  background-color: #002ead;
   transition: 0.3s;
 }
 
