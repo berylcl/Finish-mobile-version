@@ -87,8 +87,6 @@ li {
   margin-bottom: 0.5rem;
 }
 
-
-
 .social_media {
   display: flex;
   flex-direction: row;
@@ -425,9 +423,21 @@ footer hr {
   align-items: center;
 }
 
+form ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+}
+
 .aboutme ul {
   list-style-type: none;
   display: list-item;
+}
+
+form ul li {
+  width: 87.2%;
+  margin: auto;
 }
 
 .aboutme li {
@@ -532,7 +542,7 @@ footer hr {
   height: 850px;
 }
 
-.form p{
+.form p {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -542,28 +552,16 @@ footer hr {
   margin: 69px 24px 40px;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  row-gap: 24px;
-  justify-content: center;
-}
-form ul li {
-  width: 87.2% ;
-  margin: auto;
-}
-
 #username {
   margin-top: 48px;
 }
 
 #textarea {
   margin-right: 6%;
-  width: 95%;
+  width: 100%;
 }
 
 textarea {
-  margin-left: 24px;
   margin-top: 24px;
   margin-right: 24px;
 }
@@ -617,6 +615,7 @@ input::placeholder {
   align-self: center;
   flex-grow: 1;
 }
+
 .tbutton div {
   text-align: center;
 }
@@ -639,6 +638,6 @@ input::placeholder {
 
 @media (max-width: 800px) {
   #textarea {
-    width: 86%;
+    width: 90%;
   }
 }
