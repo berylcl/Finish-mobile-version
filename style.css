@@ -87,6 +87,8 @@ li {
   margin-bottom: 0.5rem;
 }
 
+
+
 .social_media {
   display: flex;
   flex-direction: row;
@@ -530,7 +532,7 @@ footer hr {
   height: 850px;
 }
 
-.form p {
+.form p{
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -538,6 +540,17 @@ footer hr {
   text-align: center;
   color: #172b4d;
   margin: 69px 24px 40px;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+}
+form ul li {
+  width: 87.2% ;
+  margin: auto;
 }
 
 #username {
@@ -603,6 +616,9 @@ input::placeholder {
 .tbutton {
   align-self: center;
   flex-grow: 1;
+}
+.tbutton div {
+  text-align: center;
 }
 
 .social_mediafooter {
