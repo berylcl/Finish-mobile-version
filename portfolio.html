@@ -22,7 +22,6 @@
 </head>
 <body>
 <main>
-
     <header>
         <nav>
             <ul class="logo" >
@@ -183,8 +182,10 @@
     <button class="resume">Get my resume</button>
     <hr>
     <ul class="exp">
-        <div class="shape"><div class="diamond"></div>
-            <li class="exp1">Language</li></div>
+        <div class="shape">
+            <div class="diamond"></div>
+            <li class="exp1">Language</li>
+        </div>
         <ul >
             <li class="text work">Javascript</li>
             <li class="text work">Ruby</li>
@@ -206,18 +207,52 @@
         </div>
 
         <ul>
-            <li class="text work">CodeKit</li>
-            <li class="text work">Github</li>
-            <li class="text work">CodePen</li>
-            <li class="text work">Gitlab</lli>
-            <li class="text work">Terminal</li>
-
+            <li class="text work">Database Management</li>
+            <li class="text work">Version Control</li>
+            <li class="text work">CLI</li>
+            <li class="text work">API Design</li>
+            <li class="text work">Web Development</li>
         </ul>
-
     </ul>
-
 </section>
-
-
+<section class="form">
+    <p>
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </p>
+    <form action="https://formspree.io/f/xrgvyznd" method="post">
+        <ul>
+            <li>
+                <label for="username">
+                <input id="username" type="text" name="username" placeholder="Full Name" maxlength="30" required>
+            </li>
+            <li>
+                <label for="email"></label>
+                <input id="email"  name="email" type="email"placeholder="Email Address" required>
+            </li>
+            <li>
+                <label for="textarea"></label><textarea name="message" id="textarea" rows="7" cols="100" maxlength="500" placeholder="Write me something..." required></textarea>
+            </li>
+            <li>
+                <div class="tbutton" >
+                    <div>
+                        <button  type="submit">Get in touch</button>
+                    </div>
+                    
+                </div>  
+            </li>
+        </ul>
+    </form>
+    <footer>
+        <hr>
+        <ul class="social_mediafooter">
+            <li><a href="#"><img src="images/github1.png" alt="git" width="18px" height="20px"></a></li>
+            <li><a href="#"><img src="images/linkedin1.png" alt="linkedin" width="24px" height="24px"></a></li>
+            <li><a href="#"><img src="images/vic1.png" alt="vic" width="14.17px" height="20px"></a></li>
+            <li><a href="#"><img src="images/twitter1.png" alt="twitter" width="20px" height="20px"></a></li>
+            <li><a href="#"><img src="images/nedium1.png" alt="" width="20px" height="16px"></a></li>
+        </ul>
+    </footer>
+</section>
 </html>
+
 

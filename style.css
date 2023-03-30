@@ -101,6 +101,13 @@ ul {
   list-style-type: none;
 }
 
+footer ul {
+  list-style-type: none;
+  display: flex;
+  padding: 8px;
+  margin: 15px;
+}
+
 .headline {
   background: #1c1a19;
   min-height: calc(100vh - 50px);
@@ -133,6 +140,12 @@ ul {
   min-height: calc(100vh - 90px);
   flex-direction: column;
   justify-content: space-around;
+}
+
+footer hr {
+  margin-top: 70px;
+  height: 1px;
+  width: 120%;
 }
 
 .headline2 hr {
@@ -367,8 +380,8 @@ ul {
 
 .aboutme {
   background-color: #1c1a19;
-  height: 2000px;
-  margin-top: 120px;
+  height: 2050px;
+  margin-top: 100px;
   background-image: url('images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-size: 7rem;
@@ -410,9 +423,21 @@ ul {
   align-items: center;
 }
 
+form ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+}
+
 .aboutme ul {
   list-style-type: none;
   display: list-item;
+}
+
+form ul li {
+  width: 87.2%;
+  margin: auto;
 }
 
 .aboutme li {
@@ -509,5 +534,110 @@ ul {
 @media (min-width: 600px) {
   .aboutme hr {
     margin-top: 250px;
+  }
+}
+
+.form {
+  top: 6038px;
+  height: 850px;
+}
+
+.form p {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin: 69px 24px 40px;
+}
+
+#username {
+  margin-top: 48px;
+}
+
+#textarea {
+  margin-right: 6%;
+  width: 100%;
+}
+
+textarea {
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+textarea,
+textarea::placeholder {
+  padding-left: 12px;
+  color: #3c3a39;
+  font-size: 25px;
+  padding-top: 12px;
+  font-family: 'Inter', sans-serif;
+  height: 20%;
+  background: #fbf8f7;
+  border-color: #fbf8f7;
+}
+
+input,
+input::placeholder {
+  font: 20px/3 sans-serif;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+  padding-left: 24px;
+}
+
+.form button {
+  height: 48px;
+  width: 140px;
+  left: 98px;
+  top: 282px;
+  background: #ff6b00;
+  padding: 12px;
+  align-items: center;
+  flex-direction: row;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  border-color: #ff6b00;
+  margin-top: 24px;
+}
+
+.tbutton {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.tbutton div {
+  text-align: center;
+}
+
+.social_mediafooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 40px;
+  width: 50%;
+  margin-top: 20px;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
+.social_mediafooter:nth-of-type(1) {
+  margin-left: 20%;
+}
+
+@media (max-width: 800px) {
+  #textarea {
+    width: 90%;
   }
 }
